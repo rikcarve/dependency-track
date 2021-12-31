@@ -20,6 +20,10 @@
         {
           "title": "Component",
           "value": "{{ subject.component.toString | escape(strategy="json") }}"
+        },
+        {
+          "title": "Projects",
+          "value": "{{ subject.affectedProjects | escape(strategy="json") }}"
         }
       ],
       "actions": [
